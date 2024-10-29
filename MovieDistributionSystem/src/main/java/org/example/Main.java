@@ -82,12 +82,6 @@ public class Main {
 
         Map<String, Distributor> distributors = parsePermissions(input);
 
-        System.out.println(distributors.get("DISTRIBUTOR1").includes);
-        System.out.println(distributors.get("DISTRIBUTOR2").includes);
-        System.out.println(distributors.get("DISTRIBUTOR3").includes);
-        System.out.println(distributors.get("DISTRIBUTOR4").includes);
-        System.out.println(distributors.get("DISTRIBUTOR5").includes);
-
         String inputFile = "MovieDistributionSystem/src/main/resources/input.txt";
 
         try {
@@ -111,7 +105,6 @@ public class Main {
                     region = regionMatcher.group(1);
                 }
                 if(distributor != null) {
-                    System.out.println(distributor.excludes);
                     if (distributor.canDistributeIn(region)) {
                         System.out.println("Yes, " + distributor.getName() + " can distribute in " + region);
                     } else {

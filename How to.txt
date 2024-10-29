@@ -1,3 +1,8 @@
+How to test the application?
+== Modify the permissions.json according to the permissions you want to add.
+== Add the inputs in input.txt
+== Run the org.example.Main class's main function
+
 How to write the permissions.json?
 == A sample permissions.json has been provided under ./MovieDistributionSystem/src/resources/permissions.json
 == Use that same file to give any more permissions and follow the structure.
