@@ -216,13 +216,4 @@ public class Distributor {
         }
         return false;
     }
-
-    public void print(String prefix) {
-        System.out.println(prefix + name);
-        for(Distributor subDistributor: subDistributors) {
-            subDistributor.print(prefix + "  ");
-        }
-    }
-
-
 }

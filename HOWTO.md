@@ -10,7 +10,7 @@ A sample permissions.json has been provided under ./MovieDistributionSystem/src/
 
 Use that same file to give any more permissions and follow the structure.
 
-#### How to give input?
+### How to give input?
 A sample input has been provided under ./MovieDistributionSystem/src/resources/input.txt 
 
 Use that same file to give any more input and follow the structure.

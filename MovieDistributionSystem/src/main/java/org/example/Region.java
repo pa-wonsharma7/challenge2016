@@ -81,19 +81,4 @@ public class Region {
     public String getCountry() {
         return country;
     }
-
-//    @Override
-//    public boolean equals(Object obj) {
-//        if (this == obj) return true;
-//        if (obj == null || getClass() != obj.getClass()) return false;
-//        Region region = (Region) obj;
-//        return Objects.equals(city, region.city) &&
-//                Objects.equals(province, region.province) &&
-//                Objects.equals(country, region.country);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(city, province, country);
-//    }
 }

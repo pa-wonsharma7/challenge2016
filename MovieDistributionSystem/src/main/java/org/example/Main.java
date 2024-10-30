@@ -75,7 +75,6 @@ public class Main {
 
         String csvFile = "MovieDistributionSystem/src/main/resources/cities.csv";
         Region.readCSV(csvFile);
-        System.out.println(Region.getCSVSize());
 
         String permissionsFile = "MovieDistributionSystem/src/main/resources/permissions.json";
         String input = parseInputJson(permissionsFile);
